@@ -13,7 +13,7 @@ else{
     eyeSlash.style.display = 'block';
     fieldPass.type = 'password'
 }
-};
+}
 document.querySelector('#btn-login').addEventListener('click', function(e){
     e.preventDefault();
     alert('Logado!')
